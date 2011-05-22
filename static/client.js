@@ -50,7 +50,7 @@ $(function(){
 
     render: function(){
             
-        $(this.el).html(this.model.get('ID')+':'+ this.model.get('content')+' on '+this.model.get('time'));
+        $(this.el).html(this.model.get('ID')+' : '+ this.model.get('content')+' on '+this.model.get('time'));
             
         return this;
             }
